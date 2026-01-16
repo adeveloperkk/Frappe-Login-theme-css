@@ -7,11 +7,9 @@ Add the CSS below to:
 - Website Settings → Custom CSS
 
 Run:
-```bash
-bench clear-cache
-bench restart
 
 Theme CSS
+```bash
 /* =========================
    PRIMARY BUTTONS
    Replace #37715d (primary color)
@@ -77,6 +75,8 @@ header,
   background: #30a66d36 !important;
 }
 
+```bash
+
 Color Reference (Replace As Needed)
 #37715d   -> Primary buttons
 #30a66d   -> Hover / focus state
@@ -84,8 +84,12 @@ Color Reference (Replace As Needed)
 #2F2A3A   -> Secondary button text
 #ffffff   -> Button text (recommended no change)
 #30a66d36 -> Login, navbar, footer background (hex + alpha)
-
+```bash
+```bash
+bench clear-cache
+bench restart
 Notes
+```bash
 
 36 in #30a66d36 = ~22% opacity
 
